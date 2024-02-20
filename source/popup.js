@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
         fetch("https://api-ssl.bitly.com/v4/shorten", {
             method: 'POST',
             headers: {
-                'Authorization': 'Bearer 509d243e8673abb3a2971b62aaab2595774bf81a',
+                'Authorization': 'Bearer YOUR_BITLY_ACCESS_TOKEN',
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({ "long_url": longUrl, "domain": "bit.ly" })
