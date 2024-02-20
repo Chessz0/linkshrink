@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LinkShrink</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      width: 300px; /* Adjust popup width as needed */
+    }
+    input[type="text"] {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+    button {
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>LinkShrink</h2>
+  <input type="text" id="longUrl" placeholder="Paste long URL here">
+  <button id="shortenBtn">Shorten</button>
+  <div id="shortUrl"></div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
